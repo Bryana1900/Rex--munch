@@ -1,0 +1,144 @@
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.contenedor .btn-abrir-popup {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    background-color: #f04d2f;
+    border-color: none;
+    padding: 2rem;
+    font-family: 'roboto';
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 20px;
+    height: 250px;
+    width: 250px;
+    margin-left: 55%;
+    margin-bottom: 20px;
+}
+
+.contenedor .tenedor {
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.overlay {
+    background: rgba(240, 76, 48, 0.2);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup {
+    background: #ffffff;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0, .3);
+    border-radius: 3px;
+    padding: 20px;
+    text-align: center;
+    width: 600px;
+    height: 680px;
+    transform: scale(0.7);
+    font-family: 'roboto';
+}
+
+.popup .btn-cerrar-popup {
+    font-size: 36px;
+    line-height: 16px;
+    display: block;
+    text-align: right;
+    color: #c4c4c4;
+}
+
+.popup .btn-cerrar-popup:hover {
+    color: black;
+}
+
+.popup h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+.popup form .contenedor-inputs input {
+    width: 80%;
+    margin-bottom: 50px;
+    height: 52px;
+    line-height: 52px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid #bbbbbb;
+}
+
+.popup form #btn-submit {
+    padding: 0 20px;
+    height: 60px;
+    width: 40%;
+    line-height: 40px;
+    border: none;
+    color: #ffffff;
+    background: #5f1347;
+    border-radius: 21px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.popup form #btn-submit:hover {
+    background: #330a26d3;
+}
+
+.popup .inicio_sesiond {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #858181;
+}
+
+.popup .enlace {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #F04D2F;
+}
+
+.popup .ult_p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+.popup .enlace2 {
+    font-family: 'roboto';
+    font-size: 16px;
+    font-weight: 400;
+    color: #F04D2F;
+}
+
+.error {
+    border: 1px solid #ef116c;
+}

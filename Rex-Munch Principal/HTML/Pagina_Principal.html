@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Página Principal</title>
+    <link rel="stylesheet" href="/css/pagina_principal.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+
+<header>
+    <div class="header">
+        <img src="/IMG/Banner-Naranja.png" class="header_portada">
+        <div class="header_container">
+            <div class="names_container">
+                <h1 id="nombreUsuario"></h1>
+                <div class="header_perfil" id="header_perfil">
+                    <nav>
+                        <a href="/HTML/Perfil.html" id="enlaceUsuarios" class="perfil_cliente">Cliente</a>
+                        <a href="/HTML/Perfil.html" id="enlacesAdministrador" class="perfil_cliente">Administrador</a>
+                        <a href="/HTML/Perfil.html" id="enlacesGerente" class="perfil_cliente">Gerente</a>
+                        <a href="/HTML/Perfil.html" id="enlacesDueño" class="perfil_cliente">Dueño</a>
+                    </nav>
+                    <div class="header_icon">
+                        <button id="enlaceUsuarios"><i class="far fa-user icon"></i></button>
+                    </div>
+                    <a class="cerrar" href="inicio_sesion.html">Cerrar Sesión</a>
+                </div>
+            </div>
+
+            <img src="/IMG/Logo_Rexmunch.png" class="header_logo">
+            <div class="header_notif">
+                <button><i class="far fa-bell"></i></button>
+            </div>
+        </div>
+
+        <div class="header_busqueda">
+            <input type="text" class="barra_busqueda" id="barra_busqueda">
+        </div>
+
+    </div>
+</header>
+
+<body>
+
+    <main>
+
+        <div class="rest_populares">
+            <div id="botones">
+                <div class="rest_btn">
+                    <a href="lista_usuarios.html"><button class="btn-admin">Lista De Usuarios</button></a>
+                    <a href="lista_platillos.html"><button class="btn-admin">Lista De Platillos</button></a>
+                    <a href=""><button class="btn-admin">Aprobar O Denegar Encargados</button></a>
+                </div>
+            </div>
+        </div>
+
+        <div id="Restaurantes">
+            <p class="restaurante_tittle">Restaurantes</p>
+
+            <a href="/HTML/menu.html">
+                <section id="sct-cartas">
+                    <div class="contenedor">
+
+                    </div>
+                </section>
+            </a>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer" id="footer">
+            <div class="first_part">
+                <div class="footer_logo">
+                    <img src="/IMG/logo2_rexmunch.png">
+                </div>
+                <div class="apps">
+                    <div class="footer_btn">
+                        <button class="btn_footer">
+                            <i class="fab fa-apple apple"></i>
+                            <div class="txt">
+                                <p>Descargala en</p>
+                                <p class="app">App Store</p>
+                            </div>
+                        </button>
+                    </div>
+                    <div class="footer_btn">
+                        <button class="btn_footer">
+                            <img src="img/Untitled-2.png" class="footer_img"></i>
+                            <div class="txt">
+                                <p>Descargala en</p>
+                                <p class="app">Play Store</p>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__text-1">
+                <div class="ftext">
+                    <a class="hightlight" href="">Acerca de Rex-Munch</a>
+                    <a href="">Agrega tu restaurante</a>
+                    <a href="">Regístrate para reservar</a>
+                    <div class="redes_soc">
+                        <p>Síguenos en</p>
+                        <a href=""><i class="fab fa-instagram red_social"></i></a>
+                        <a href=""><i class="fab fa-twitter red_social"></i></a>
+                        <a href=""><i class="fab fa-facebook red_social"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="third_part">
+                <a href="">Obtén ayuda</a>
+                <a href="">Conoce nuestros restaurantes</a>
+                <a href="">Ahorra en tu primera reservación</a>
+                <a href="">Términos y Condiciones</a>
+                <a href="">Contáctanos</a>
+            </div>
+    </footer>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="/JS/general.js"></script>
+
+
+    <script src="/JS/Conectado.js"></script>
+
+    <script src="/JS/FuncionOcultar.js"></script>
+    <script src="/JS/Mostar_Restaurantes.js"></script>
+
+</body>
+
+</html>

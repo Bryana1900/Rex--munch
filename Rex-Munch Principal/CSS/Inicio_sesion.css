@@ -1,0 +1,117 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.error {
+    border: 2px solid #ef116c;
+}
+
+.overlay {
+    background: rgba(240, 76, 48, 0.2);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup {
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 48px;
+    font-family: 'Roboto';
+    padding: 20px;
+    text-align: center;
+    background: #ffffff;
+    width: 600px;
+    height: 680px;
+    transform: scale(0.7);
+    font-family: 'roboto';
+}
+
+.btn-cerrar-popup {
+    transition: .3s ease all;
+    font-size: 36px;
+    line-height: 16px;
+    display: block;
+    text-align: right;
+    color: #c4c4c4;
+}
+
+.btn-cerrar-popup :hover {
+    color: #000;
+}
+
+.popup h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 100px;
+    margin-top: 120px;
+}
+
+.popup form .contenedor_inputs input {
+    border: 1px solid #C4C4C4;
+    width: 80%;
+    margin-bottom: 50px;
+    height: 52px;
+    line-height: 52px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid #bbbbbb;
+    border-radius: 10px;
+}
+
+.popup form .contenedor_inputs nav a {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    align-items: center;
+    text-align: center;
+    color: #555454;
+    text-decoration: none;
+}
+
+.popup form .btn_submit {
+    letter-spacing: -0.015em;
+    font-style: normal;
+    padding: 0 20px;
+    height: 60px;
+    width: 40%;
+    line-height: 40px;
+    border: none;
+    color: #ffffff;
+    background: #5f1347;
+    border-radius: 21px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.popup .inferior h4 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #858181;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.popup .inferior a {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: #F19535;
+    text-decoration: none;
+}

@@ -1,0 +1,546 @@
+body {
+    font-family: 'Roboto', 'sans-serif';
+}
+
+
+/* Header principal*/
+
+#principal {
+    background-image: url("../IMG/Portada.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 70%;
+}
+
+
+/* Header principal superior */
+
+#principal .superior nav {
+    font-size: 200%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#principal .superior nav a {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-weight: normal;
+    text-decoration: none;
+    margin: 45px;
+}
+
+#principal .superior nav a:hover {
+    text-decoration: underline #dd9e27 4px;
+}
+
+
+/* Header principal inferior */
+
+#principal .inferior {
+    color: rgb(255, 255, 255);
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 185%;
+    margin-top: 3%;
+    text-align: center;
+}
+
+#principal .inferior img {
+    width: 150px;
+}
+
+#principal .inferior p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    margin-left: 25px;
+    font-weight: 550;
+}
+
+#principal .inferior p:nth-child(1) {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#principal .inferior p:nth-child(1) {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#principal .inferior p:nth-child(3) {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#principal .otroestilo {
+    color: #dd9e27;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+/* Inicia servicios*/
+
+#Servicios {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.servicios_titulo h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 75px;
+    color: #4289c9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 150px;
+    font-weight: 1000;
+}
+
+.servicios .interior {
+    font-size: 55px;
+    color: #4289c9;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    width: 90%;
+}
+
+.servicios .interior img {
+    width: 45%;
+    margin: 0 250px 200px 0;
+}
+
+.servicios .interior .texto {
+    flex-direction: column;
+    width: 50%;
+    height: 400px;
+}
+
+.servicios .interior .texto h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: #10102A;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.servicios .interior .texto h2:hover {
+    color: #0d75d0;
+    font-weight: bold;
+}
+
+.servicios .interior .texto p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: #000000;
+    font-weight: bold;
+}
+
+
+/* Termina servicios*/
+
+
+/* Inicia Mision y Vision*/
+
+.container {
+    box-sizing: border-box;
+}
+
+.about {
+    display: flex;
+    background: #0f0e27;
+    color: #fff;
+    font-size: 24px;
+}
+
+.about-box {
+    padding: 90px 60px;
+    box-sizing: border-box 100px;
+}
+
+.about-box h2 {
+    color: #dd9e25;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.about-box p {
+    text-align: justify;
+    line-height: 1.5;
+    font-weight: 300;
+    color: #bbbbbb;
+    font: 1em sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Termina Mision y Vision*/
+
+
+/* Inicia Proyecto*/
+
+.protectos__container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0;
+}
+
+.proyectos__proyecto {
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 4rem;
+}
+
+.proyecto__slider {
+    display: flex;
+    flex-basis: 50%;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.5rem;
+}
+
+.protecto__tittle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    color: #000000;
+    font-weight: bold;
+}
+
+.proyecto__parrafo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    margin-top: 0;
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+}
+
+.proyecto__2 {
+    display: flex;
+    flex-basis: 50%;
+    flex-direction: column;
+    font-size: 3rem;
+    font-weight: 700;
+    border-radius: 47% 0 0 47%;
+    background-color: #dd9e27;
+    padding: 2rem;
+    align-items: center;
+    margin: 2, 4rem 0 0 2rem;
+    max-height: 17rem;
+}
+
+.proyecto__2 a {
+    text-decoration: none;
+}
+
+.proyecto__2-title {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    font-size: 6rem;
+    font-weight: 600rem;
+    color: white;
+    text-align: end;
+}
+
+
+/* Termina Proyecto*/
+
+
+/* Inicia nuestro equipo*/
+
+.equipo_titulo h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 58px;
+    justify-content: center;
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    background-color: #F2F2F3;
+    color: #000000;
+    font-weight: bold;
+}
+
+#sct_team {
+    padding: 30px;
+    background-color: #F2F2F3;
+}
+
+#sct_team .card_container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#sct_team .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    border: 2px solid #F2F2F3;
+}
+
+#sct_team .card .circular {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+#sct_team .card header img {
+    display: flex;
+    size: 50px;
+}
+
+#sct_team .card .card_body {
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F3;
+    color: #fff;
+    padding: 30px;
+}
+
+.name {
+    color: #0b0766;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card-role {
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 38px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card-description {
+    color: #464646;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.abajo {
+    margin-left: 500px;
+    width: 25%;
+    height: 25%;
+}
+
+
+/* Termina nuestro equipo*/
+
+
+/* Inicia footer */
+
+* {
+    box-sizing: border-box;
+}
+
+.footer .container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    background-image: linear-gradient(45deg, #0b0766 0%, #000000 99%, #000000 100%);
+    padding: 70px;
+}
+
+
+/* Edito cuadro */
+
+.footer-col {
+    width: 35%;
+    padding: 0 15px;
+}
+
+
+/* Edito letra de contactanos */
+
+.footer-col h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    margin: 0px 0 0 20px;
+    text-transform: capitalize;
+    position: relative;
+    color: #dd9e27;
+    font-weight: bold;
+}
+
+
+/* Editar el cuadro donde estara el nombre, corre, mensaje */
+
+.form-register {
+    width: 255px;
+    background: transparent;
+    padding: 30px;
+    margin-top: 100px;
+    font-family: 'calibri';
+    color: white;
+    margin: 0 10px 10px 0;
+}
+
+
+/* Editar cuadro individales */
+
+.controls {
+    width: 100%;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 9px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+
+/* Editar cuadro de mensaje */
+
+.control {
+    width: 100%;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 9px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+
+/* Editar boton de enviar */
+
+.form-register .botons {
+    width: 50%;
+    background: #c5961f;
+    border-radius: 50px;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0 70px 90px;
+    font-size: 16px;
+}
+
+
+/* Editar sub titulos h4 */
+
+.footer-col h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #ddb514;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 400;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '   ';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+
+/* Editar informacion */
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+
+/* Editar iconos */
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 40%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+
+/* Editar logo */
+
+.logo img {
+    width: 300px;
+    height: 300px;
+}
+
+
+/*responsive*/
+
+@media(max-width: 720px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 720px) {
+    .footer-col {
+        width: 100%;
+    }
+}
+
+
+/* Terminaa footer */

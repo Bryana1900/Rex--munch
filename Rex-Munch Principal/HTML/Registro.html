@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/Registro.css">
+    <link rel="stylesheet" href="/CSS/reset.css">
+    <title>Registro</title>
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="contenedor-pop">
+            <div class="overlay" id="overlay">
+                <div class="popup" id="popup">
+                    <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+                    <h3>Regístrate a Rex-Munch</h3>
+
+                    <form id="frm-registrar">
+                        <div class="contenedor-inputs">
+                            <input type="text" id="txt-nombre" placeholder="Nombre Completo" required>
+                            <input type="email" id="txt-email" placeholder="Correo Electrónico" required>
+                            <input type="date" id="txt-fecha" placeholder="Fecha de nacimiento" required>
+                            <input type="password" id="txt-contrasenna" placeholder="Contraseña" required>
+                        </div>
+                        <!--aca va en enlace al main page-->
+                        <input type="button" id="btn-submit" value="Regístrate">
+                    </form>
+
+                    <p class="inicio_sesiond">Ya tienes una cuenta? <a href="/HTML/Inicio_sesion.html" class="enlace">Inicia Sesión</a></p>
+                    <p class="ult_p">Al registrarse aceptas nuestras <a href="" class="enlace2">Condiciones de Servicios y Politicas de Privacidad</a></p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Scripts fundamentales -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="/JS/general.js"></script>
+
+    <script src="/JS/Registro.js"></script>
+
+</body>
+
+</html>

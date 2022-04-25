@@ -1,0 +1,215 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#header-principal {
+    background-image: url("../IMG/banner_3.png");
+    background-position: absolute;
+    background-size: contain;
+    height: 400px;
+    width: 100%;
+}
+
+#header-principal .contenedor-logo {
+    height: 70px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#header-principal .contenedor-logo img {
+    height: 120px;
+}
+
+#registro {
+    padding: 10px;
+}
+
+#registro h1 {
+    font-size: 52px;
+    font-family: 'roboto';
+    font-weight: bold;
+    padding-left: 0.75%;
+    margin-top: 70px;
+    margin-left: 80px;
+    text-decoration: underline #F04D2F;
+}
+
+#info {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -120px;
+}
+
+#platillos {
+    background-size: cover;
+    margin-right: 190px;
+}
+
+#platillos .categoria {
+    font-weight: 700;
+}
+
+#caracteristicas label,
+#platillos label {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    display: block;
+    font-weight: 700;
+}
+
+#caracteristicas input,
+#platillos input,
+#caracteristicas textarea {
+    width: 80%;
+    border-radius: 10px;
+    height: 50px;
+    appearance: none;
+    border: 1px solid #000;
+    outline: none;
+}
+
+#platillos .nombre {
+    font-weight: 700;
+}
+
+#platillos .precio {
+    font-weight: 700;
+}
+
+#platillos .impuesto {
+    font-weight: 700;
+}
+
+#boton .btn {
+    width: 250px;
+    height: 52px;
+    background: #5F1348;
+    border-radius: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    padding: 15px;
+    margin: 0.5rem;
+    margin-left: -13%;
+    margin-top: 80px;
+}
+
+#caracteristicas {
+    background-color: #fff;
+    background-size: cover;
+    padding: 0 40px;
+    margin-right: 100px;
+}
+
+#caracteristicas .descripcion {
+    font-weight: 700;
+}
+
+#caracteristicas .fotos {
+    font-weight: 700;
+}
+
+#user-photo {
+    background-image: url(../IMG/foto.png);
+    background-position: center;
+    background-size: 310px;
+    color: #ffffff;
+    width: 330px;
+    height: 170px;
+}
+
+#btn-foto {
+    width: 50%;
+    border-radius: 10px;
+    background: none;
+    border: 1px solid blueviolet;
+    padding: 12px;
+    color: rgb(86, 8, 194);
+    margin: 16px 0 40px 0;
+    font-size: 16px;
+}
+
+#caracteristicas .especial {
+    font-weight: 700;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-around;
+    background: #5F1348;
+    margin-top: 20px;
+}
+
+.apps {
+    display: flex;
+    flex-basis: 50%;
+    align-items: center;
+    margin: 40px;
+}
+
+.btn-footer {
+    display: flex;
+    align-items: center;
+    border-color: #fff;
+    border: 1px solid;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 18px;
+}
+
+.apple {
+    font-size: 3rem;
+}
+
+.txt {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+    font-size: 0.7rem;
+    padding: 0 0 0 20px;
+}
+
+.app {
+    padding: 5px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.footer_img {
+    width: 2.5rem;
+}
+
+.footer_text {
+    display: flex;
+    margin-top: 3rem;
+    width: 50%;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.2rem;
+    justify-content: space-around;
+}
+
+.footer_text a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer_text p {
+    padding-bottom: 20px;
+}
+
+.red_social {
+    font-weight: 100;
+    padding-right: 20px;
+}

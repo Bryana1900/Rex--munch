@@ -1,0 +1,231 @@
+        /* Editar parte arriba y cosas generales */
+        
+        .arriba_registro {
+            background-image: url(../IMG/banner_3.png);
+            background-position: center;
+            width: 100%;
+            height: 255px;
+        }
+        
+        .arriba_registro img {
+            width: 230px;
+            height: 120px;
+            float: right;
+        }
+        
+        .arriba_registro h5 {
+            text-decoration: underline #F04D2F 4px;
+            position: relative;
+            font-weight: bold;
+            font-family: 'Roboto', sans-serif;
+            font-size: 50px;
+            margin-bottom: 90px;
+            top: 80%;
+            margin: 0px 0px 0 90px;
+        }
+        
+        .row_registro {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .general_registro h3 {
+            margin-bottom: 30px;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        
+        .general_registro .social-links a {
+            font-size: 25px;
+            height: 90px;
+            width: 90px;
+            margin: 16px 10px 50px 10;
+            text-align: center;
+            color: #883f80;
+            transition: all 0.5s ease;
+        }
+        
+        .general_registro .social-links a:hover {
+            color: #24262b;
+        }
+        
+        .label {
+            font-family: 'Roboto', sans-serif;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        /* Editar el cuadro donde estara el nombre, corre, mensaje...
+        y su respectivo lugar.
+        Izquierda */
+        
+        .registro_izquierda {
+            width: 355px;
+            background: transparent;
+            padding: 30px;
+            margin-top: 100px;
+            font-family: 'Roboto', sans-serif;
+            color: rgb(0, 0, 0);
+            margin: 0 0px 0px 70px;
+        }
+        
+        #user-photo {
+            background-image: url(../IMG/foto.png);
+            background-position: center;
+            background-size: 320px;
+            color: #ffffff;
+            width: 330px;
+            height: 180px;
+        }
+        
+        #btn-foto {
+            width: 50%;
+            border-radius: 10px;
+            background: none;
+            border: 1px solid blueviolet;
+            padding: 12px;
+            color: rgb(86, 8, 194);
+            margin: 16px 0 40px 0;
+            font-size: 16px;
+        }
+        /* Editar el cuadro donde estara el nombre, corre, mensaje...
+        y su respectivo lugar.
+        Derecha */
+        
+        .registro_derecha {
+            width: 255px;
+            background: transparent;
+            padding: 30px;
+            margin-top: 100px;
+            font-family: 'Roboto', sans-serif;
+            color: rgb(0, 0, 0);
+            margin: 0 0px 0px 350px;
+        }
+        
+        .registro_derecha img {
+            width: 230px;
+            height: 120px;
+        }
+        /* Editar cuadro individales */
+        
+        .controls_regist {
+            width: 100%;
+            background: #ffffff;
+            padding: 10px;
+            border-radius: 9px;
+            margin-bottom: 16px;
+            border: 1px solid #434343;
+            font-family: 'Roboto', sans-serif;
+            font-size: 18px;
+            color: rgb(0, 0, 0);
+        }
+        /* Andres */
+        
+        .perfil-cliente {
+            font-family: 'Roboto', sans-serif;
+            text-decoration: underline 3px solid #F04D2F;
+            font-weight: bold;
+            text-align: left;
+            margin-bottom: 50px;
+            font-size: 40px;
+        }
+        
+        .btn_id {
+            background: #5F1348;
+            color: white;
+            font-weight: bold;
+            border-radius: 10px;
+            height: 50px;
+            margin-left: 200px;
+        }
+        
+        #btn-submit {
+            background: #5F1348;
+            color: white;
+            font-weight: bold;
+            border-radius: 10px;
+            width: 15%;
+            height: 50px;
+            margin-left: 70%;
+        }
+        
+        footer {
+            background-color: #5f1348;
+            width: 100%;
+            height: 250px;
+        }
+        
+        .apps {
+            display: flex;
+            flex-basis: 50%;
+            align-items: center;
+            margin: 1rem;
+        }
+        
+        .btn_footer {
+            display: flex;
+            align-items: center;
+            border-color: white;
+            border-radius: 10px;
+            width: 215px;
+            height: 82px;
+            box-sizing: border-box;
+            margin: 20px;
+            padding: 30px;
+            border: 2px solid;
+            background-color: none;
+            color: white;
+            background: #5F1348;
+            width: 280px;
+            margin-top: 90px;
+            height: 100px;
+        }
+        
+        .app {
+            padding: 5px;
+            font-size: 1rem;
+            font-weight: 700;
+        }
+        
+        .apple {
+            font-size: 3rem;
+        }
+        
+        .txt {
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            align-items: center;
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+            padding: 0 0 0 20px;
+        }
+        
+        .footer_img {
+            width: 2.5rem;
+        }
+        
+        .footer_text a {
+            text-decoration: none;
+            color: white;
+            margin-left: 200px;
+            font-size: 20px;
+        }
+        
+        .redes_soc {
+            margin-top: 30px;
+            margin-left: 90px;
+        }
+        
+        .redes_soc p {
+            color: white;
+            padding-bottom: 20px;
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+        }
+        
+        .redes_soc a {
+            color: white;
+            margin: 10px;
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+        }

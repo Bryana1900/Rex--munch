@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="/CSS/Metodos_Pago.css">
+    <link rel="stylesheet" href="/CSS/reset.css">
+    <title>Metodos De Pago</title>
+</head>
+
+<body>
+    <form id="frm-registrar">
+        <section class="form-register">
+            <img src="/IMG/Logo_Rexmunch.png" alt="">
+            <a href="/HTML/Perfil.html" class="cerrar"><i class="fas fa-times"></i></a>
+            <h3>Registro metodos de pago</h3>
+
+            <div class="junto">
+                <label>Tipo tarjeta<input class="control" type="text" id="tipo" required></label>
+                <label>Nombre del dueño tarjeta<input class="control" type="text" id="nombre" required></label>
+            </div>
+            <label>Numero de tarjeta <input class="control" type="tel" id="numero" required></label>
+
+            <div class="junto">
+                <label>Fecha de expiracion<input class="control" type="date" id="fecha" required></label>
+                <label>CVV <input class="control" type="password" id="cvv" required></label>
+            </div>
+            <button class="botons" id="pago" type="button">Registrar</button>
+        </section>
+    </form>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="/JS/general.js"></script>
+
+    <script src="/JS/Registro_pago.js"></script>
+</body>
+
+</html>

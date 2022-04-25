@@ -1,0 +1,138 @@
+.ocultar {
+    display: none;
+}
+
+header {
+    background: url(../IMG/bannerverede.png);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 305px;
+}
+
+header img {
+    width: 230px;
+    height: 120px;
+    float: right;
+}
+
+header i {
+    color: #F04D2F;
+    font-size: 100px;
+    padding-top: 300px;
+    margin-left: 150px;
+    margin-top: -15%;
+}
+
+.header h2 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header h1 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 700px;
+    margin-top: 1%;
+    text-decoration: underline 5px solid #F04D2F;
+}
+
+.medio a {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    align-items: center;
+    border-color: transparent;
+    text-decoration: none;
+    color: black;
+    background: #e9e3e3;
+    font-size: 25px;
+    margin: 40px;
+    width: 260px;
+    height: 50px;
+    border-radius: 18px;
+}
+
+footer {
+    background-color: #5f1348;
+    width: 100%;
+    height: 250px;
+}
+
+.apps {
+    display: flex;
+    flex-basis: 50%;
+    align-items: center;
+    margin: 1rem;
+}
+
+.btn_footer {
+    display: flex;
+    align-items: center;
+    border-color: white;
+    border-radius: 10px;
+    width: 215px;
+    height: 82px;
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 30px;
+    border: 2px solid;
+    background-color: none;
+    color: white;
+    background: #5F1348;
+    width: 280px;
+    margin-top: 90px;
+    height: 100px;
+}
+
+.app {
+    padding: 5px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.apple {
+    font-size: 3rem;
+}
+
+.txt {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding: 0 0 0 20px;
+}
+
+.footer_img {
+    width: 2.5rem;
+}
+
+.footer_text a {
+    text-decoration: none;
+    color: white;
+    margin-left: 200px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.redes_soc {
+    margin-top: 30px;
+    margin-left: 90px;
+}
+
+.redes_soc p {
+    color: white;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.redes_soc a {
+    color: white;
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
